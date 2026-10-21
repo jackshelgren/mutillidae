@@ -147,7 +147,7 @@
 <?php
 	if ($lCreateParameterAdditionVulnerability) {
 		echo "<!-- Diagnostics: Request Parameters - ";
-		echo var_dump($_REQUEST);
+		
 		echo "-->";
 	}// end if
 ?>
